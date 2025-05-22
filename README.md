@@ -16,12 +16,12 @@ Usage
 -----
 Run the script with the following arguments:
 
-    sudo python3 mac_changer.py -i <interface> -ma <new_mac_address>
+    sudo python3 mac_changer.py -i <interface> -mc <new_mac_address>
 
 Arguments
 ---------
 - `-i` : Network interface name (e.g., `eth0`, `wlan0`)
-- `-ma`: New MAC address to assign (e.g., `11:22:33:44:55:66`)
+- `-mc`: New MAC address to assign (e.g., `11:22:33:44:55:66`)
 
 Example
 -------
