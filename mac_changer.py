@@ -11,7 +11,7 @@ def mac_chang(interface,mac_add):
 if __name__ == "__main__":
         pars = argparse.ArgumentParser(description="change MAC address of a network interface ")
         pars.add_argument("-i",required =True , help=" network interface name (eg wlan0 )" )
-        pars.add_argument("-ma",required =True, help=" new MAC address it should have 6 pairs (eg 11:22:33:44:55:66)" )
+        pars.add_argument("-mc",required =True, help=" new MAC address it should have 6 pairs (eg 11:22:33:44:55:66)" )
         args= pars.parse_args()
 
-        mac_chang(args.i,args.ma)
+        mac_chang(args.i,args.mc)
